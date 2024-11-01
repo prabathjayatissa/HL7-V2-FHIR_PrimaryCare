@@ -14,7 +14,6 @@ test('parses PID segment correctly', () => {
   expect(result.patient.gender).toBe('M');
 });
 
-
 test('parses OBR segment correctly', () => {
   const hl7Message = 'OBR|1|12345|12345|CBC|||||20230101||||||||||||||||F';
   const result = parser.parse(hl7Message);
@@ -23,7 +22,6 @@ test('parses OBR segment correctly', () => {
   expect(result.order.id).toBe('12345');
   expect(result.order.status).toBe('F');
 });
-
 
 test('parses OBX segment correctly', () => {
   const hl7Message = 'OBX|1|NM|WBC^White Blood Count|1|7.0|K/uL|3.5-10.5|N|||F';
