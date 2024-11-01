@@ -21,9 +21,11 @@ export class HL7Parser {
       }
     });
 
+    
     return parsedMessage;
   }
 
+  
   parsePatient(fields) {
     return {
       id: fields[3],
