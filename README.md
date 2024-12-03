@@ -1,6 +1,6 @@
-HL7-V2-FHIR_PrimaryCare
+# HL7-V2-FHIR_PrimaryCare
 
-I've created a comprehensive HL7 v2 to FHIR mapping solution specifically for primary care practice data. 
+## HL7 v2 to FHIR mapping solution specifically for primary care practice data. 
 
 Here's what's included:
  
