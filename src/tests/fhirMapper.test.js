@@ -20,6 +20,7 @@ test('converts patient data to FHIR Patient resource', () => {
   };
 
   const result = mapper.convert(hl7Data);
+  
   expect(result.resourceType).toBe('Bundle');
   expect(result.entry[0].resource.resourceType).toBe('Patient');
   expect(result.entry[0].resource.name[0].family).toBe('Doe');
