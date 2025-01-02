@@ -7,7 +7,6 @@ export class HL7Parser {
       const fields = segment.split('|');
       const segmentType = fields[0];
 
-      
       switch (segmentType) {
         case 'PID':
           parsedMessage.patient = this.parsePatient(fields);
