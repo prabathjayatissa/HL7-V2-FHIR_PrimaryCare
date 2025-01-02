@@ -43,6 +43,7 @@ export class HL7Parser {
     };
   }
 
+  
   parseObservation(fields) {
     return {
       id: fields[3],
