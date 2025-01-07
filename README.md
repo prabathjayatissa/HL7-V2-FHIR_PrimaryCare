@@ -18,7 +18,7 @@ To use the converter:
   The server is now running on port 3000. 
   You can test it by sending HL7 v2 messages to 
   
-  http://localhost:3000/convert.
+  http://localhost:3000/convert
 
 
 Need any specific mapping rules or additional segments supported?
