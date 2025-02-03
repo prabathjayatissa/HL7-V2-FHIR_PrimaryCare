@@ -14,7 +14,7 @@ export class FHIRMapper {
         resources.push(this.createObservationResource(obs));
       });
     }
-
+ 
     return {
       resourceType: 'Bundle',
       type: 'collection',
