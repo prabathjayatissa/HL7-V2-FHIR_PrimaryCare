@@ -1,7 +1,6 @@
 export class FHIRMapper {
   convert(parsedHL7) {
     const resources = [];
-
     
     if (parsedHL7.patient) {
       resources.push(this.createPatientResource(parsedHL7.patient));
