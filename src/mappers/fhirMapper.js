@@ -84,6 +84,7 @@ export class FHIRMapper {
       'M': 'male',
       'O': 'other',
       'U': 'unknown'
+      
     };
     return genderMap[hl7Gender] || 'unknown';
   }
