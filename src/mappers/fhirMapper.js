@@ -5,6 +5,7 @@ export class FHIRMapper {
     if (parsedHL7.patient) {
       resources.push(this.createPatientResource(parsedHL7.patient));
     }
+    
     if (parsedHL7.order) {
       resources.push(this.createServiceRequestResource(parsedHL7.order));
     }
