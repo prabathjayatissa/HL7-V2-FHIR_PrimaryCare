@@ -38,6 +38,7 @@ test('converts observation to FHIR Observation resource', () => {
     }]
   };
 
+  
   const result = mapper.convert(hl7Data);
   
   expect(result.entry[0].resource.resourceType).toBe('Observation');
