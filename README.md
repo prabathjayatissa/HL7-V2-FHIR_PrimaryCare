@@ -2,7 +2,7 @@
 
 ## HL7 v2 to FHIR mapping solution specifically for primary care practice data. 
 
-Here's what's included:
+ Here's what's included:
  
  HL7 Parser: Handles parsing of PID (Patient), OBR (Order), and OBX (Observation) segments
  FHIR Mapper: Converts parsed HL7 data to FHIR resources (Patient, ServiceRequest, Observation)
